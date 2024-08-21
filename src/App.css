@@ -113,3 +113,49 @@ body {
     font-size: small;
   }
 }
+
+.episodiocarta{
+  border: 2px solid green;
+  max-width: 300px;
+  min-width: auto;
+  border-radius: 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.episodiocarta-episodio{
+  background-color: rosybrown;
+  margin-bottom: 5px;
+
+}
+
+.episodiocarta h3{
+  margin: 0;
+
+}
+
+.piedepagina h3{
+  margin: 0;
+
+
+}
+.piedepagina p{
+  margin:0;
+}
+
+.episodiocarta-nombre{
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+}
+@media (max-width: 600px) {
+  .episodiocarta {
+    max-width: 100%;
+  }
+}
