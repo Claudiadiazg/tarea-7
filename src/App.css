@@ -1,7 +1,7 @@
 /* styles.css */
 body {
   margin: 0;
-  background-image: url("./images.jpeg"); /* Ajusta la ruta según tu archivo */
+  background-color:aquamarine; /* Ajusta la ruta según tu archivo */
   background-size: cover;
   background-position: center;
   font-family: Arial, sans-serif;
